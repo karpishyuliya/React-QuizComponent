@@ -12,7 +12,7 @@ handleClick(buttonText){
         this.props.showNextQuestionHandler()
     }
     this.setState(state => ({
-        incorrectAnswer: (buttonText === this.props.quiz_question.answer)
+        incorrectAnswer: (buttonText !== this.props.quiz_question.answer)
     }))
 }
 

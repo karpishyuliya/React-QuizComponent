@@ -16,7 +16,6 @@ class Quiz extends Component {
     }
 
     handleResetClick(){
-console.debug('reser quize')
 this.setState(state => ({
     quiz_position: 1
 }))
